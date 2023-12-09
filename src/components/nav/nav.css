@@ -1,0 +1,18 @@
+nav {
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    z-index: 200;
+    padding:0.75rem 1.7rem;
+    display: flex;
+    gap: 0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    
+    border-radius: 3rem;
+}
+
+nav a{
+    padding: 0.8rem;
+}
