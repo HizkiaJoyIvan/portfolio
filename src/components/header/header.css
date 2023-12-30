@@ -30,6 +30,23 @@ header {
     margin-left: 2rem;
 }
 
+.header__socials-linkedin {
+    font-size: 3rem;
+}
+
+.header__socials-github {
+    font-size: 3rem;
+}
+
+.header__socials-linkedin:hover {
+    color: cyan;
+}
+
+.header__socials-github:hover {
+    color: white;
+}
+
+
 .header__info {
     margin-left: 600px;
     width: 50%;
@@ -47,7 +64,6 @@ header {
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
 }
 
 .me {

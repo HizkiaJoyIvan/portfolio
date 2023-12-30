@@ -29,9 +29,9 @@ const data = [
     {
         id: 3,
         image: IMG1,
-        title: 'Social Media Clone',
-        github: 'https://github.com/HizkiaJoyIvan/social_media_clone',
-        demo: '',
+        title: 'Facepedia',
+        github: 'https://github.com/HizkiaJoyIvan/facepedia',
+        demo: 'facepedia-platform.vercel.app',
         isPublic: true
     },
     {
@@ -64,8 +64,8 @@ const data = [
 const Portfolio = () => {
     return (
         <section id="portfolio">
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h5 className='portfolio__header1'>My Recent Work</h5>
+            <h2 className='portfolio__header2'>Portfolio</h2>
             <div className="container portfolio__container">
                 {
                     data.map(({id,image,title,github,demo,isPublic})=>{
